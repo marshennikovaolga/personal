@@ -3,7 +3,7 @@ import './App.css'
 import AnimatedLink from '../AnimatedLink'
 import { useState, useEffect } from 'react'
 import { faInstagram, faGithub, faSpotify, faTwitter, faGoogle }
-    from '@fortawesome/free-brands-svg-icons'
+from '@fortawesome/free-brands-svg-icons'
 import rightImage from '../../images/right.png'
 import bottomImage from '../../images/bottom.png'
 
@@ -49,17 +49,15 @@ export default function App() {
                 <p className={tw`text-lg mb-3`}>based in Tbilisi since march 2024 🇬🇪</p>
                 <div className={tw`pt-5`}>
                     <p className={tw`text-base mb-1`}>Hey there! I'm Olya</p>
-                    <p className={tw`text-base mb-1`}> Currently updating my portfolio and am keen on joining</p>
-                    <p className={tw`text-base mb-1`}>collaborative projects. At the moment, developing</p>
-                    <p className={tw`text-base mb-1`}>functionality for the <a href="https://github.com/kuskusapp" className={tw`text-blue-500 hover:underline`}>Kuskus app,</a> you can check</p>
-                    <p className={tw`text-base mb-2`}> my repo <a href="https://github.com/marshennikovaolga/drag-n-drop" className={tw`text-blue-500 hover:underline`}>here</a></p>
+                    <p className={tw`text-base mb-1`}> Currently updating my portfolio and am keen</p>
+                    <p className={tw`text-base mb-1`}>on joining collaborative projects. At the moment,</p>
+                    <p className={tw`text-base mb-1`}>developing functionality for the <a href="https://github.com/kuskusapp" className={tw`text-blue-500 hover:underline`}>Kuskus app,</a></p>
+                    <p className={tw`text-base mb-2`}>you can check my repo <a href="https://github.com/marshennikovaolga/drag-n-drop" className={tw`text-blue-500 hover:underline`}>here</a></p>
                 </div>
-
                 <div className={tw`mt-3`}>
                     <p className={tw`text-base mb-2`}>rn i'm studying:</p>
                     <p className={tw`text-base opacity-70`}>typescript, react native, graphql</p>
                 </div>
-
                 <p className={tw`text-lg mt-8 mb-4`}>Find me on my socials
                     <button className={tw`ml-5`} onClick={buttonClick}>
                         {showLinks ? (<img src={bottomImage} alt="Close" className={tw`w-auto h-5`} />)
