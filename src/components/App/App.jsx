@@ -52,7 +52,7 @@ export default function App() {
                     <p className={tw`text-base mb-1`}> Currently updating my portfolio and am keen</p>
                     <p className={tw`text-base mb-1`}>on joining collaborative projects. At the moment,</p>
                     <p className={tw`text-base mb-1`}>developing functionality for the <a href="https://github.com/kuskusapp" className={tw`text-blue-500 hover:underline`}>Kuskus app,</a></p>
-                    <p className={tw`text-base mb-2`}>you can check my repo <a href="https://github.com/marshennikovaolga/drag-n-drop" className={tw`text-blue-500 hover:underline`}>here</a></p>
+                    <p className={tw`text-base mb-2`}>you can check my repo <a href="https://github.com/kuskusapp/kuskus" className={tw`text-blue-500 hover:underline`}>here</a></p>
                 </div>
                 <div className={tw`mt-3`}>
                     <p className={tw`text-base mb-2`}>rn i'm studying:</p>
